@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0D20C43D21D0877C005CCEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D20C43C21D0877C005CCEBE /* AppDelegate.swift */; };
-		0D20C43F21D0877C005CCEBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D20C43E21D0877C005CCEBE /* ViewController.swift */; };
 		0D20C44221D0877C005CCEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D20C44021D0877C005CCEBE /* Main.storyboard */; };
 		0D20C44521D0877C005CCEBE /* EMC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D20C44321D0877C005CCEBE /* EMC.xcdatamodeld */; };
 		0D20C44721D08782005CCEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D20C44621D08782005CCEBE /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		0D20C43921D0877B005CCEBE /* EMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D20C43C21D0877C005CCEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D20C43E21D0877C005CCEBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D20C44121D0877C005CCEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D20C44421D0877C005CCEBE /* EMC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EMC.xcdatamodel; sourceTree = "<group>"; };
 		0D20C44621D08782005CCEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,9 +97,15 @@
 		0D20C43B21D0877B005CCEBE /* EMC */ = {
 			isa = PBXGroup;
 			children = (
-				0D20C43C21D0877C005CCEBE /* AppDelegate.swift */,
-				0D20C43E21D0877C005CCEBE /* ViewController.swift */,
 				0D20C44021D0877C005CCEBE /* Main.storyboard */,
+				0D20C46D21D0B441005CCEBE /* Login */,
+				0D20C47121D0BB85005CCEBE /* PurchasingC */,
+				0D20C47021D0BB4B005CCEBE /* AcceptRepair */,
+				0D20C46F21D0BB09005CCEBE /* GuidanceT */,
+				0D20C46E21D0BACD005CCEBE /* Repair */,
+				0D20C47221D0BBD3005CCEBE /* MineMessage */,
+				0D20C47321D0BBF9005CCEBE /* MonBox */,
+				0D20C43C21D0877C005CCEBE /* AppDelegate.swift */,
 				0D20C44621D08782005CCEBE /* Assets.xcassets */,
 				0D20C44821D08782005CCEBE /* LaunchScreen.storyboard */,
 				0D20C44B21D08782005CCEBE /* Info.plist */,
@@ -126,6 +130,55 @@
 				0D20C46121D08782005CCEBE /* Info.plist */,
 			);
 			path = EMCUITests;
+			sourceTree = "<group>";
+		};
+		0D20C46D21D0B441005CCEBE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0D20C46E21D0BACD005CCEBE /* Repair */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repair;
+			sourceTree = "<group>";
+		};
+		0D20C46F21D0BB09005CCEBE /* GuidanceT */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GuidanceT;
+			sourceTree = "<group>";
+		};
+		0D20C47021D0BB4B005CCEBE /* AcceptRepair */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AcceptRepair;
+			sourceTree = "<group>";
+		};
+		0D20C47121D0BB85005CCEBE /* PurchasingC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PurchasingC;
+			sourceTree = "<group>";
+		};
+		0D20C47221D0BBD3005CCEBE /* MineMessage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MineMessage;
+			sourceTree = "<group>";
+		};
+		0D20C47321D0BBF9005CCEBE /* MonBox */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MonBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D20C43F21D0877C005CCEBE /* ViewController.swift in Sources */,
 				0D20C44521D0877C005CCEBE /* EMC.xcdatamodeld in Sources */,
 				0D20C43D21D0877C005CCEBE /* AppDelegate.swift in Sources */,
 			);
