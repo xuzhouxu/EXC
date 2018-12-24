@@ -97,14 +97,8 @@
 		0D20C43B21D0877B005CCEBE /* EMC */ = {
 			isa = PBXGroup;
 			children = (
+				0D20C47F21D0C125005CCEBE /* Loginn */,
 				0D20C44021D0877C005CCEBE /* Main.storyboard */,
-				0D20C46D21D0B441005CCEBE /* Login */,
-				0D20C47121D0BB85005CCEBE /* PurchasingC */,
-				0D20C47021D0BB4B005CCEBE /* AcceptRepair */,
-				0D20C46F21D0BB09005CCEBE /* GuidanceT */,
-				0D20C46E21D0BACD005CCEBE /* Repair */,
-				0D20C47221D0BBD3005CCEBE /* MineMessage */,
-				0D20C47321D0BBF9005CCEBE /* MonBox */,
 				0D20C43C21D0877C005CCEBE /* AppDelegate.swift */,
 				0D20C44621D08782005CCEBE /* Assets.xcassets */,
 				0D20C44821D08782005CCEBE /* LaunchScreen.storyboard */,
@@ -132,53 +126,11 @@
 			path = EMCUITests;
 			sourceTree = "<group>";
 		};
-		0D20C46D21D0B441005CCEBE /* Login */ = {
+		0D20C47F21D0C125005CCEBE /* Loginn */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		0D20C46E21D0BACD005CCEBE /* Repair */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repair;
-			sourceTree = "<group>";
-		};
-		0D20C46F21D0BB09005CCEBE /* GuidanceT */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = GuidanceT;
-			sourceTree = "<group>";
-		};
-		0D20C47021D0BB4B005CCEBE /* AcceptRepair */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AcceptRepair;
-			sourceTree = "<group>";
-		};
-		0D20C47121D0BB85005CCEBE /* PurchasingC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PurchasingC;
-			sourceTree = "<group>";
-		};
-		0D20C47221D0BBD3005CCEBE /* MineMessage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MineMessage;
-			sourceTree = "<group>";
-		};
-		0D20C47321D0BBF9005CCEBE /* MonBox */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MonBox;
+			path = Loginn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
