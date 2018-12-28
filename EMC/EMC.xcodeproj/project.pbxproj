@@ -15,6 +15,7 @@
 		0D20C45521D08782005CCEBE /* EMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D20C45421D08782005CCEBE /* EMCTests.swift */; };
 		0D20C46021D08782005CCEBE /* EMCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D20C45F21D08782005CCEBE /* EMCUITests.swift */; };
 		0D20C48121D0C256005CCEBE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D20C48021D0C256005CCEBE /* LoginViewController.swift */; };
+		923772FF21D5BFA40045A30C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923772FE21D5BFA40045A30C /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0D20C45F21D08782005CCEBE /* EMCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMCUITests.swift; sourceTree = "<group>"; };
 		0D20C46121D08782005CCEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D20C48021D0C256005CCEBE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		923772FE21D5BFA40045A30C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0D20C44821D08782005CCEBE /* LaunchScreen.storyboard */,
 				0D20C44B21D08782005CCEBE /* Info.plist */,
 				0D20C44321D0877C005CCEBE /* EMC.xcdatamodeld */,
+				923772FE21D5BFA40045A30C /* ViewController.swift */,
 			);
 			path = EMC;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				0D20C48121D0C256005CCEBE /* LoginViewController.swift in Sources */,
 				0D20C44521D0877C005CCEBE /* EMC.xcdatamodeld in Sources */,
+				923772FF21D5BFA40045A30C /* ViewController.swift in Sources */,
 				0D20C43D21D0877C005CCEBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
