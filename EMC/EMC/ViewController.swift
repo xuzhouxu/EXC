@@ -15,11 +15,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         username.borderStyle = UITextField.BorderStyle.none
+        username.clearButtonMode = .always
         password.borderStyle = UITextField.BorderStyle.none
-        // Do any additional setup after loading the view.
+        password.clearButtonMode = .always
+        password.isSecureTextEntry = true
     }
     
-
+    @IBAction func viewClick(_ sender: Any) {
+        username.resignFirstResponder()
+        password.resignFirstResponder()
+    }
+    @IBAction func downback(_ sender: Any) {
+        username.resignFirstResponder()
+        password.resignFirstResponder()
+    }
+    
     /*
     // MARK: - Navigation
 
