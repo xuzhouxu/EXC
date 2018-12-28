@@ -121,14 +121,14 @@
                                 <color key="textColor" red="0.18039215689999999" green="0.38431372549999998" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="直线" translatesAutoresizingMaskIntoConstraints="NO" id="2Rt-hn-mNg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="线" translatesAutoresizingMaskIntoConstraints="NO" id="2Rt-hn-mNg">
                                 <rect key="frame" x="58" y="355" width="296" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="296" id="6f9-sV-JQs"/>
                                     <constraint firstAttribute="height" constant="1" id="kfa-47-VQF"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="直线" translatesAutoresizingMaskIntoConstraints="NO" id="ZOH-rF-79o">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="线" translatesAutoresizingMaskIntoConstraints="NO" id="ZOH-rF-79o">
                                 <rect key="frame" x="59" y="421" width="296" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="RRD-pb-bih"/>
@@ -241,13 +241,13 @@
         <image name=" 登录图片" width="1920" height="925"/>
         <image name="icon-mima" width="200" height="200"/>
         <image name="login" width="72" height="78"/>
-        <image name="logo" width="56.25" height="56.25"/>
+        <image name="logo" width="75" height="75"/>
         <image name="mima" width="32" height="32"/>
         <image name="slogan" width="270" height="36"/>
         <image name="xingmingyonghumingnicheng" width="32" height="32"/>
         <image name="zhanghao" width="200" height="200"/>
         <image name="按钮" width="450" height="66"/>
         <image name="登录背景图片" width="393" height="312"/>
-        <image name="直线" width="300" height="1"/>
+        <image name="线" width="300" height="1"/>
     </resources>
 </document>
